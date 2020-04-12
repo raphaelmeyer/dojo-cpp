@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(Template)
+project(CodingDojo)
 
 add_subdirectory(vendor)
 

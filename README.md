@@ -1,11 +1,10 @@
-# Lightweight C++ CMake Template
-
-[![Build Status](https://travis-ci.com/raphaelmeyer/template-light.svg?branch=master)](https://travis-ci.com/raphaelmeyer/template-light)
+# C++ Coding Dojo Template
 
 ## Getting Started
 
-    git clone https://github.com/raphaelmeyer/template-light.git
-    cd template-light
     ./build
 
-bla bla bal
+
+## Live Feedback
+
+Start script `watch` in a terminal and start editing.

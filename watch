@@ -1,0 +1,13 @@
+#!/bin/bash
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd ${script_dir}
+
+clear
+
+inotifywait -r -e close_write,create -m CMakeLists.txt source |
+while read events ; do
+  clear
+  echo "Trigger: ${events}"
+  ./build
+done

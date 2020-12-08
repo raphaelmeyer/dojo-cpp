@@ -3,13 +3,11 @@
 
 #include "code.h"
 
-namespace
-{
+namespace {
 
-TEST_CASE("when ... then ...")
-{
-    CHECK(ns::answer() == 23);
-    CHECK(ns::answer() != 42);
+TEST_CASE("when ... then ...") {
+  CHECK(ns::answer() == 23);
+  CHECK(ns::answer() != 42);
 }
 
 } // namespace

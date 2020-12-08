@@ -2,7 +2,7 @@
   {
     "name": "Clang Default",
     "compilers": {
-      "CC": "clang",
+      "C": "clang",
       "CXX": "clang++"
     }
   }

@@ -1,7 +1,6 @@
 #pragma once
 
-namespace ns
-{
+namespace ns {
 
 int answer();
 

@@ -1,11 +1,7 @@
 #include "code.h"
 
-namespace ns
-{
+namespace ns {
 
-int answer()
-{
-    return 23;
-}
+int answer() { return 23; }
 
 } // namespace ns
